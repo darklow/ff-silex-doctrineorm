@@ -26,5 +26,6 @@
         "psr-0": {
             "Entora": "src"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
