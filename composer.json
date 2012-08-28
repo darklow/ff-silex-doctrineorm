@@ -1,0 +1,27 @@
+{
+    "name": "entora/silex-doctrineorm",
+    "type": "library",
+    "description": "Doctrine Multiple DB ORM for Silex",
+    "keywords": ["silex","doctrine", "orm"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kaspars Sprogis",
+            "email": "darklow@gmail.com",
+            "role": "Developer"
+        },{
+            "name": "Jérémy LEHERPEUR",
+            "email": "jeremy@leherpeur.net",
+            "role": "Inspired by"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "doctrine/orm": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Entora": "src"
+        }
+    }
+}
