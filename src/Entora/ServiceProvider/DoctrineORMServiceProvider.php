@@ -42,7 +42,7 @@ class DoctrineORMServiceProvider implements \Silex\ServiceProviderInterface
             /*'entities'              => array(
                 array('type' => 'annotation', 'path' => 'Entity', 'namespace' => 'Entity')
             ),*/
-            'proxies_dir'           => 'cache/doctrine/Proxy',
+            'proxies_dir'           => $app['root'].'cache/doctrine/Proxy',
             'proxies_namespace'     => 'DoctrineProxy',
             'auto_generate_proxies' => true,
         );
