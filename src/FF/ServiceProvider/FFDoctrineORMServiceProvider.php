@@ -1,6 +1,6 @@
 <?php
 
-namespace Entora\ServiceProvider;
+namespace FF\ServiceProvider;
 
 use Doctrine\DBAL\DriverManager;
 use Doctrine\DBAL\Types\Type;
@@ -20,7 +20,7 @@ use Doctrine\Common\EventManager;
 use Silex\Application;
 use Silex\ExtensionInterface;
 
-class DoctrineORMServiceProvider implements \Silex\ServiceProviderInterface
+class FFDoctrineORMServiceProvider implements \Silex\ServiceProviderInterface
 {
     public function register(Application $app)
     {
