@@ -1,7 +1,7 @@
 {
-    "name": "entora/silex-doctrineorm",
+    "name": "entora/ff-silex-doctrineorm",
     "type": "library",
-    "description": "Doctrine Multiple DB ORM for Silex",
+    "description": "Doctrine ORM service provider for Silex supporting multiple databases",
     "keywords": ["silex","doctrine", "orm"],
     "license": "MIT",
     "authors": [
@@ -20,11 +20,11 @@
     ],
     "require": {
         "php": ">=5.3.0",
-        "doctrine/orm": "dev-master"
+        "doctrine/orm": ">=2.2.3,<2.4-dev"
     },
     "autoload": {
         "psr-0": {
-            "Entora": "src"
+            "FF": "src"
         }
     },
     "minimum-stability": "dev"
