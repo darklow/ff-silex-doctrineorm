@@ -1,5 +1,5 @@
 {
-    "name": "entora/ff-silex-doctrineorm",
+    "name": "darklow/ff-silex-doctrineorm",
     "type": "library",
     "description": "Doctrine ORM service provider for Silex supporting multiple databases",
     "keywords": ["silex","doctrine", "orm"],
